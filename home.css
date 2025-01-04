@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, rgb(44, 44, 44), rgb(182, 182, 182));
+    width: 100vw;
+    height: 100vh;
+}
