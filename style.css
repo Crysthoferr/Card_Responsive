@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Jersey 15", serif;
+    font-size: 2em;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgba(173, 173, 173, 0.918);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    min-height: 50vh;
+    width: 50vw;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(43, 42, 42, 0.452);
+}
