@@ -30,5 +30,30 @@ section {
     width: 50vw;
     background-color: aliceblue;
     border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.555);
     box-shadow: 3px 3px 5px rgba(43, 42, 42, 0.452);
+}
+
+#img {
+    background-size: cover;
+    width: 289px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contain h2 {
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.contain p {
+    font-family: sans-serif;
+    margin: 10px;
 }
