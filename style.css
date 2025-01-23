@@ -9,14 +9,15 @@
 header {
     font-family: "Jersey 15", serif;
     font-size: 2em;
-    height: 200px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 body {
-    background-color: rgba(173, 173, 173, 0.918);
+    background-color: rgb(20, 20, 20);
 }
 
 section {
@@ -26,8 +27,8 @@ section {
 }
 
 #card {
-    min-height: 50vh;
-    width: 50vw;
+    min-height: 70vh;
+    min-width: 25vw;
     background-color: aliceblue;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.555);
@@ -36,7 +37,7 @@ section {
 
 #img {
     background-size: cover;
-    width: 289px;
+    min-width: 340px;
     height: 200px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -49,11 +50,37 @@ section {
 }
 
 .contain h2 {
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+.contain h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
 }
 
 .contain p {
     font-family: sans-serif;
     margin: 10px;
+}
+
+#cor {
+    margin: 20px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#sale {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.521);
+}
+
+#sale:hover {
+    background-color: rgba(0, 0, 255, 0.767);
 }
