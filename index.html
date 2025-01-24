@@ -18,8 +18,18 @@
             <img src="fotopro.jpg" alt="Product" id="img">
             <div class="contain">
                 <h2>Jordan One</h2>
-                <h1>Preço:  339,99 R$</h1>
-                <label for="cor">Escolha uma cor:<input type="color" id="cor"></label>
+                <h1>Price:  339,99 R$</h1>
+                <div class="animation">
+                    
+                </div>
+                <input list="cor" id="color" placeholder="Digite uma cor">
+                <datalist id="cor">
+                    <option value="orange"></option>
+                    <option value="green"></option>
+                    <option value="red"></option>
+                    <option value="yellow"></option>
+                    <option value="blue"></option>
+                </datalist>
                 <input type="button" value="Comprar" id="sale" onclick="comprar()">
             </div>
         </div>

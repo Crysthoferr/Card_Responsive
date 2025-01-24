@@ -9,7 +9,7 @@
 header {
     font-family: "Jersey 15", serif;
     font-size: 2em;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ header {
 }
 
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: #6f0b00;
 }
 
 section {
@@ -27,18 +27,17 @@ section {
 }
 
 #card {
-    min-height: 70vh;
-    min-width: 25vw;
-    background-color: aliceblue;
+    width: 65vw;
+    background-color: #c96823;
     border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.555);
+    border: 2px solid rgba(0, 0, 0, 0.555);
     box-shadow: 3px 3px 5px rgba(43, 42, 42, 0.452);
 }
 
 #img {
     background-size: cover;
-    min-width: 340px;
-    height: 200px;
+    height: 270px;
+    width: 64vw;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -52,11 +51,13 @@ section {
 .contain h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
+    margin-right: 150px;
 }
 
 .contain h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
+    margin-right: 150px;
 }
 
 .contain p {
@@ -64,23 +65,31 @@ section {
     margin: 10px;
 }
 
-#cor {
-    margin: 20px;
-}
-
-label {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
+#color {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 5px;
 }
 
 #sale {
-    width: 30vw;
+    width: 25vw;
     height: 5vh;
+    margin-top: 20px;
+    margin-bottom: 10px;
     border-radius: 7px;
     border: none;
+    padding: 6px;
     background-color: rgba(0, 0, 255, 0.521);
 }
 
 #sale:hover {
     background-color: rgba(0, 0, 255, 0.767);
+    cursor: pointer;
+}
+
+.animation {
+    background-color: blue;
+    max-height: 20vh;
+    width: 100vw;
 }
