@@ -27,7 +27,8 @@ section {
 }
 
 #card {
-    width: 65vw;
+    max-width: 275px;
+    max-height: 72vh;
     background-color: #c96823;
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.555);
@@ -36,8 +37,8 @@ section {
 
 #img {
     background-size: cover;
-    height: 270px;
-    width: 64vw;
+    height: 220px;
+    width: 271px;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -50,14 +51,19 @@ section {
 
 .contain h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
-    margin-right: 150px;
+    margin: 4px;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .contain h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
     margin: 10px;
     margin-right: 150px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .contain p {
@@ -67,29 +73,33 @@ section {
 
 #color {
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
+    background-color: #c96823;
     outline: none;
     padding: 5px;
+    margin: 10px;
+    color: white;
+}
+
+#color::placeholder {
+    color: white;
 }
 
 #sale {
     width: 25vw;
     height: 5vh;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     border-radius: 7px;
     border: none;
     padding: 6px;
-    background-color: rgba(0, 0, 255, 0.521);
+    background-color: #ffffffd2;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.808);
 }
 
 #sale:hover {
-    background-color: rgba(0, 0, 255, 0.767);
+    background-color: #6f0b00;
     cursor: pointer;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.808);
 }
 
-.animation {
-    background-color: blue;
-    max-height: 20vh;
-    width: 100vw;
-}
