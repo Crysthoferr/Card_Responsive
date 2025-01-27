@@ -1,6 +1,7 @@
-var comp = document.getElementById('sale');
+let comp = document.getElementById('sale');
+let cor = document.getElementById('color');
 
-function comprar() {
+function sale() {
     comp = window.location.href = 'index2.html';
 }
 

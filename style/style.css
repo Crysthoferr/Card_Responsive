@@ -35,7 +35,7 @@ section {
     max-width: 275px;
     max-height: 72vh;
     background-color: #282d2d;
-    border-radius: 6px;
+    border-radius: 4px;
     box-shadow: 3px 3px 5px rgba(43, 42, 42, 0.452);
     overflow: hidden;
 }
@@ -46,9 +46,8 @@ section {
     left: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(to right, transparent, #6f0b00);/*podemos usar to left para inverter*/
-    animation: animar1 2s linear infinite;
-    animation-delay: 1s;
+    background: linear-gradient(to right, #f2b55a, #f2b55a);/*podemos usar to left para inverter*/
+    animation: animar1 6s  infinite;
 }
 
 @keyframes animar1 {
@@ -66,8 +65,8 @@ section {
     left: 0;
     width: 3px;
     height: 100%;
-    background: linear-gradient(to top, transparent, #6f0b00);/*podemos usar to left para inverter*/
-    animation: animar2 2s linear infinite;
+    background: linear-gradient(to top, #f2b55a, #f2b55a);/*podemos usar to left para inverter*/
+    animation: animar2 6s  infinite;
 }
 
 @keyframes animar2 {
@@ -79,11 +78,49 @@ section {
     }
 }
 
+#card:hover span:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, #f2b55a, #f2b55a);/*podemos usar to left para inverter*/
+    animation: animar3 6s  infinite;
+}
+
+@keyframes animar3 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#card:hover span:nth-of-type(4) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, #f2b55a, #f2b55a);/*podemos usar to left para inverter*/
+    animation: animar4 6s  infinite;
+}
+
+@keyframes animar4 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
 #img {
     background-size: cover;
     height: 220px;
     width: 275px;
-    border-radius: 6px 6px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
 }
 
 .contain {
