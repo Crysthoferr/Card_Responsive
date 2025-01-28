@@ -100,6 +100,7 @@ section {
     padding: 6px;
     background-color: #f2b55a;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.808);
+    transition: .4s ease;
 }
 
 #sale:hover {
@@ -109,3 +110,21 @@ section {
     color: white;
 }
 
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+.texto {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.texto:hover {
+    transform: translateY(-1.5px); 
+    color: rgb(130, 111, 216);
+}
